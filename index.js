@@ -16,6 +16,16 @@ function logShout(string) {
   console.log(result)
 }
 
+function logWhisper(string) {
+  var word='HELLO'
+  var result
+  if (string===word){
+    result="hello"
+  }else if (string==="hello"){
+    result="hello"}
+  console.log(result)
+}
+
 function sayHiToGrandma(string) {
   var lowercase= "hello"
   var answer
