@@ -13,6 +13,7 @@ function logShout(string) {
 
 function logWhisper(string) {
   var word= "HELLO"
+  console.log(word.toLowerCase)
 }
 
 function sayHiToGrandma(string) {
