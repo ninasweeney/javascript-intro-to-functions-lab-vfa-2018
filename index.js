@@ -12,7 +12,7 @@ function logShout(string) {
   if (string===word){
     result="HELLO"
   }else if (string==="HELLO"){
-    result="HELLO"
+    result="HELLO"}
   console.log(result)
 }
 
@@ -29,4 +29,3 @@ function sayHiToGrandma(string) {
   }
   return (answer);
 }
-
