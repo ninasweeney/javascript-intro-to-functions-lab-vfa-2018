@@ -8,7 +8,12 @@ function whisper(string) {
 
 function logShout(string) {
   var word='hello'
-  console.log(word.toUpperCase)
+  var result
+  if (string===word){
+    result="HELLO"
+  }else if (string==="HELLO"){
+    result="HELLO"
+  console.log(result)
 }
 
 function sayHiToGrandma(string) {
